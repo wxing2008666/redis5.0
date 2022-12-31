@@ -73,6 +73,9 @@ struct __attribute__ ((__packed__)) sdshdr64 {
     char buf[];
 };
 
+// 2022.12.31
+// 柔性数组
+
 #define SDS_TYPE_5  0
 #define SDS_TYPE_8  1
 #define SDS_TYPE_16 2
